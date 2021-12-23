@@ -1,0 +1,18 @@
+<div class="container mt-5">
+    <div *ngIf="!registerMode" style="text-align: center;">
+        <h1>SocialNetwork</h1>
+        <p class="lead">SocialNetwork helps to keep in touch with family and friends.</p>
+        <div class="text-center">
+            <button (click)="registerToggle()" class="btn btn-primary btn-lg">Register</button>
+            <button class="btn btn-info btn-lg">Learn more</button>
+        </div>
+    </div>
+
+    <div *ngIf="registerMode" class="container">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <p>Register From goes here</p>
+            </div>
+        </div>
+    </div>
+</div>
