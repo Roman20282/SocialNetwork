@@ -6,10 +6,10 @@ using System;
 
 namespace API.Controllers
 {
-    public class BaggyController : BaseApiController
+    public class BuggyController : BaseApiController
     {
         private readonly DataContext _context;
-        public BaggyController(DataContext context)
+        public BuggyController(DataContext context)
         {
             _context = context;
 
