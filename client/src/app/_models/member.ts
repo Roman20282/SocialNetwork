@@ -1,6 +1,6 @@
 import { Photo } from "./photo";
 
-declare module namespace {
+
 
     export interface Member {
         id: number;
@@ -21,5 +21,5 @@ declare module namespace {
     
 
 
-}
+
 
